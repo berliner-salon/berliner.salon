@@ -1,0 +1,22 @@
+[project]
+name = "brs_site"
+version = "0.1.0"
+description = "Website des Berliner-Rhetorik-Salons"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[project.optional-dependencies]
+docs = [
+    "sphinx",
+]
+
+dev = [
+    "brs_site[docs]",
+    "pre-commit",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

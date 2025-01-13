@@ -26,12 +26,12 @@ $ git clone git@github.com:veit/brs_site.git
 ``` console
 $ cd brs_site
 $ uv sync
+```
 
 ## Create docs
 ``` console
 $ uv sync --extra docs
-$ cd docs
-$ uv run make html
+$ uv run python -m sphinx -b html docs/ docs/_build/html/
 ```
 
 ## Create dev environment
@@ -41,4 +41,4 @@ $ uv sync --extra dev
 
 ### Open web browser
 
-URL: file:///home/jordan/proj/sphinx-playground/_build/html/index.html
+URL: `file:///home/jordan/proj/brs_site/_build/html/index.html`

@@ -1,4 +1,4 @@
-# Website des Berliner-Rhetorik-Salons
+# Website des Berliner Salons
 
 ## Install
 
@@ -18,13 +18,13 @@ $ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ``` console
 $ sudo apt install git
-$ git clone git@github.com:veit/brs_site.git
+$ git clone git@github.com:berliner-salon/berliner.salon.git
 ```
 
 ### Initialise project
 
 ``` console
-$ cd brs_site
+$ cd berliner.salon
 $ uv sync
 ```
 
@@ -41,4 +41,9 @@ $ uv sync --extra dev
 
 ### Open web browser
 
-URL: `file:///home/jordan/proj/brs_site/_build/html/index.html`
+:sampl:`file:///{PATH/TO/PROJECT}/_build/html/index.html`
+
+## Deployment
+
+After ``git pull`` the page is built on GitHub Pages:
+https://berliner-salon.github.io/berliner.salon/

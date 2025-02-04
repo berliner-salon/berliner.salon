@@ -1,7 +1,7 @@
 [project]
-name = "brs_site"
+name = "berliner.salon"
 version = "0.1.0"
-description = "Website des Berliner-Rhetorik-Salons"
+description = "Website des Berliner Salons"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -13,7 +13,7 @@ docs = [
 ]
 
 dev = [
-    "brs_site[docs]",
+    "berliner.salon[docs]",
     "pre-commit",
 ]
 
